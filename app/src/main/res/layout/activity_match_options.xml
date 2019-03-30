@@ -23,10 +23,14 @@
                              android:src="@drawable/ic_music"
                              android:background="@android:color/white"
                              android:layout_margin="20dp"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                <TextView android:layout_width="284dp" android:layout_height="match_parent"
                           android:gravity="center"
                           android:text="Music"
                           android:textColor="@android:color/black"/>
+                <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:id="@+id/checkbox1"/>
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -43,10 +47,13 @@
                              android:src="@drawable/ic_book"
                              android:background="@android:color/white"
                              android:layout_margin="20dp"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                <TextView android:layout_width="284dp" android:layout_height="match_parent"
                           android:gravity="center"
                           android:text="Books"
                           android:textColor="@android:color/black"/>
+                <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:id="@+id/checkbox2"/>
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -63,13 +70,26 @@
                              android:src="@drawable/ic_movie"
                              android:background="@android:color/white"
                              android:layout_margin="20dp"/>
-                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                <TextView android:layout_width="286dp" android:layout_height="match_parent"
                           android:gravity="center"
                           android:text="Movies"
                           android:textColor="@android:color/black"/>
+                <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:id="@+id/checkbox3"
+                />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Find friends"
+        android:background="@color/dot_light_screen1"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
 
     </LinearLayout>
 </ScrollView>
