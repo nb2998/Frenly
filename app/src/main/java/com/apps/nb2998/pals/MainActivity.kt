@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
             }
             R.id.btnFriends->{
-
+                val intent = Intent(this@MainActivity, FriendsActivity::class.java)
+                startActivity(intent)
             }
         }
     }
