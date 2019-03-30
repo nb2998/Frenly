@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View?) {
         when(view?.id) {
-            R.id.btnFindFriends->{
+            R.id.btnLookingForAFriend->{
+                val intent = Intent(this@MainActivity, SwipeActivity::class.java)
+                startActivity(intent)
 
             }
             R.id.btnRecommendations->{

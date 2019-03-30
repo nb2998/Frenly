@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pals</string>
+    <string name="app_name">Frenly</string>
     <string name="title_activity_profile">ProfileActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
