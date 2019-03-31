@@ -6,7 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".FriendsActivity"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/dot_light_screen2">
 
     <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
                                             android:layout_height="wrap_content"

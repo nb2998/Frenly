@@ -23,6 +23,7 @@ class FriendsActivity : AppCompatActivity() {
         listFriends.add(User("Akshay"))
         listFriends.add(User("Nishtha"))
         listFriends.add(User("Manav"))
+        listFriends.add(User("Cee"))
         adapter.notifyDataSetChanged()
     }
 }

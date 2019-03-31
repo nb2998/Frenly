@@ -8,7 +8,7 @@
         android:orientation="vertical"
         tools:context=".MainActivity"
         android:gravity="center"
-        android:background="@color/dot_light_screen2">
+        android:background="@drawable/bg_girl">
 
     <Button
             android:id="@+id/btnLookingForAFriend"
@@ -17,7 +17,8 @@
             android:layout_gravity="center"
             android:background="@color/dot_light_screen6"
             android:text="I am looking for a friend"
-            android:layout_margin="20dp"/>
+            android:layout_margin="20dp"
+            android:padding="10dp"/>
 
     <Button
             android:id="@+id/btnRecommendations"
@@ -26,7 +27,8 @@
             android:layout_gravity="center"
             android:background="@color/dot_light_screen6"
             android:layout_margin="20dp"
-            android:text="I want some recommendations"/>
+            android:text="I want some recommendations"
+            android:padding="10dp"/>
 
     <Button
             android:id="@+id/btnFriends"
@@ -35,6 +37,7 @@
             android:layout_gravity="center"
             android:layout_margin="20dp"
             android:background="@color/dot_light_screen6"
-            android:text="My friends"/>
+            android:text="My friends"
+            android:padding="10dp"/>
 
 </LinearLayout>

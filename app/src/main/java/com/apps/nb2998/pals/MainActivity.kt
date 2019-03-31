@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View?) {
         when(view?.id) {
             R.id.btnLookingForAFriend->{
-                val intent = Intent(this@MainActivity, SwipeActivity::class.java)
+                val intent = Intent(this@MainActivity, MatchOptionsActivity::class.java)
                 startActivity(intent)
 
             }

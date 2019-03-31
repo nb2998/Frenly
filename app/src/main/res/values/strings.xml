@@ -91,4 +91,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="intent_is_music">intent_id_music</string>
+    <string name="intent_is_books">intent_id_books</string>
+    <string name="intent_is_movies">intent_id_movies</string>
 </resources>
